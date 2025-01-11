@@ -10,9 +10,9 @@ public class Main extends JFrame {
 
     public Main() {
         dispensadores = new Dispensador[]{
-                new Dispensador("Juan", "1234567"),
-                new Dispensador("Ana", "2345678"),
-                new Dispensador("Carlos", "3456789")
+                new Dispensador("Cristhofer", "1234567"),
+                new Dispensador("Jossy", "2345678"),
+                new Dispensador("Santi", "3456789")
         };
 
         setTitle("Estación TAGUITOCAR S.A.");
@@ -36,7 +36,7 @@ public class Main extends JFrame {
         panel.setBorder(new EmptyBorder(20, 20, 20, 20));
 
         JLabel lblDispensador = new JLabel("Dispensador:");
-        JComboBox<String> comboDispensador = new JComboBox<>(new String[]{"1 - Juan", "2 - Ana", "3 - Carlos"});
+        JComboBox<String> comboDispensador = new JComboBox<>(new String[]{"1 - Cristhofer", "2 - Jossy", "3 - Santi"});
 
         JLabel lblPlaca = new JLabel("Placa:");
         JTextField txtPlaca = new JTextField();
